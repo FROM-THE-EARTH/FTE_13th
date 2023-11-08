@@ -10777,6 +10777,109 @@ Low profile connectors, straight&lt;p&gt;
 </deviceset>
 </devicesets>
 </library>
+<library name="MAX7315AUET" urn="urn:adsk.eagle:library:42304147">
+<packages>
+<package name="SOP65P640X110-16N" urn="urn:adsk.eagle:footprint:42307180/1" library_version="3">
+<description>16-SOP, 0.65 mm pitch, 6.40 mm span, 5.00 X 4.40 X 1.10 mm body
+&lt;p&gt;16-pin SOP package with 0.65 mm pitch, 6.40 mm span with body size 5.00 X 4.40 X 1.10 mm&lt;/p&gt;</description>
+<circle x="-2.9425" y="2.9824" radius="0.25" width="0" layer="21"/>
+<wire x1="-2.25" y1="2.7924" x2="2.25" y2="2.7924" width="0.12" layer="21"/>
+<wire x1="-2.25" y1="-2.7924" x2="2.25" y2="-2.7924" width="0.12" layer="21"/>
+<wire x1="2.25" y1="-2.55" x2="-2.25" y2="-2.55" width="0.12" layer="51"/>
+<wire x1="-2.25" y1="-2.55" x2="-2.25" y2="2.55" width="0.12" layer="51"/>
+<wire x1="-2.25" y1="2.55" x2="2.25" y2="2.55" width="0.12" layer="51"/>
+<wire x1="2.25" y1="2.55" x2="2.25" y2="-2.55" width="0.12" layer="51"/>
+<smd name="1" x="-2.8873" y="2.275" dx="1.4956" dy="0.4068" layer="1"/>
+<smd name="2" x="-2.8873" y="1.625" dx="1.4956" dy="0.4068" layer="1"/>
+<smd name="3" x="-2.8873" y="0.975" dx="1.4956" dy="0.4068" layer="1"/>
+<smd name="4" x="-2.8873" y="0.325" dx="1.4956" dy="0.4068" layer="1"/>
+<smd name="5" x="-2.8873" y="-0.325" dx="1.4956" dy="0.4068" layer="1"/>
+<smd name="6" x="-2.8873" y="-0.975" dx="1.4956" dy="0.4068" layer="1"/>
+<smd name="7" x="-2.8873" y="-1.625" dx="1.4956" dy="0.4068" layer="1"/>
+<smd name="8" x="-2.8873" y="-2.275" dx="1.4956" dy="0.4068" layer="1"/>
+<smd name="9" x="2.8873" y="-2.275" dx="1.4956" dy="0.4068" layer="1"/>
+<smd name="10" x="2.8873" y="-1.625" dx="1.4956" dy="0.4068" layer="1"/>
+<smd name="11" x="2.8873" y="-0.975" dx="1.4956" dy="0.4068" layer="1"/>
+<smd name="12" x="2.8873" y="-0.325" dx="1.4956" dy="0.4068" layer="1"/>
+<smd name="13" x="2.8873" y="0.325" dx="1.4956" dy="0.4068" layer="1"/>
+<smd name="14" x="2.8873" y="0.975" dx="1.4956" dy="0.4068" layer="1"/>
+<smd name="15" x="2.8873" y="1.625" dx="1.4956" dy="0.4068" layer="1"/>
+<smd name="16" x="2.8873" y="2.275" dx="1.4956" dy="0.4068" layer="1"/>
+<text x="0" y="3.8674" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3.4274" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="SOP65P640X110-16N" urn="urn:adsk.eagle:package:42307182/1" type="model" library_version="3">
+<description>16-SOP, 0.65 mm pitch, 6.40 mm span, 5.00 X 4.40 X 1.10 mm body
+&lt;p&gt;16-pin SOP package with 0.65 mm pitch, 6.40 mm span with body size 5.00 X 4.40 X 1.10 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="SOP65P640X110-16N"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="MAX7315AUET" urn="urn:adsk.eagle:symbol:42304150/3" library_version="3">
+<wire x1="-12.7" y1="20.32" x2="12.7" y2="20.32" width="0.41" layer="94"/>
+<wire x1="12.7" y1="20.32" x2="12.7" y2="-20.32" width="0.41" layer="94"/>
+<wire x1="12.7" y1="-20.32" x2="-12.7" y2="-20.32" width="0.41" layer="94"/>
+<wire x1="-12.7" y1="-20.32" x2="-12.7" y2="20.32" width="0.41" layer="94"/>
+<text x="-12.7" y="21.32" size="2.0828" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-12.7" y="-24.32" size="2.0828" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
+<pin name="AD0" x="-17.78" y="12.7" length="middle" direction="in"/>
+<pin name="AD1" x="-17.78" y="10.16" length="middle" direction="in"/>
+<pin name="AD2" x="-17.78" y="7.62" length="middle" direction="in"/>
+<pin name="SCL" x="-17.78" y="5.08" length="middle" direction="in"/>
+<pin name="P0" x="-17.78" y="0" length="middle"/>
+<pin name="P1" x="-17.78" y="-2.54" length="middle"/>
+<pin name="P2" x="-17.78" y="-5.08" length="middle"/>
+<pin name="P3" x="-17.78" y="-7.62" length="middle"/>
+<pin name="SDA" x="-17.78" y="-12.7" length="middle"/>
+<pin name="V+" x="17.78" y="17.78" length="middle" direction="pwr" rot="R180"/>
+<pin name="!INT/08" x="17.78" y="12.7" length="middle" direction="out" rot="R180"/>
+<pin name="P4" x="17.78" y="0" length="middle" rot="R180"/>
+<pin name="P5" x="17.78" y="-2.54" length="middle" rot="R180"/>
+<pin name="P6" x="17.78" y="-5.08" length="middle" rot="R180"/>
+<pin name="P7" x="17.78" y="-7.62" length="middle" rot="R180"/>
+<pin name="GND" x="17.78" y="-15.24" length="middle" direction="pwr" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="MAX7315AUET" urn="urn:adsk.eagle:component:42304176/3" prefix="U" library_version="3">
+<gates>
+<gate name="A" symbol="MAX7315AUET" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOP65P640X110-16N">
+<connects>
+<connect gate="A" pin="!INT/08" pad="13"/>
+<connect gate="A" pin="AD0" pad="1"/>
+<connect gate="A" pin="AD1" pad="2"/>
+<connect gate="A" pin="AD2" pad="3"/>
+<connect gate="A" pin="GND" pad="8"/>
+<connect gate="A" pin="P0" pad="4"/>
+<connect gate="A" pin="P1" pad="5"/>
+<connect gate="A" pin="P2" pad="6"/>
+<connect gate="A" pin="P3" pad="7"/>
+<connect gate="A" pin="P4" pad="9"/>
+<connect gate="A" pin="P5" pad="10"/>
+<connect gate="A" pin="P6" pad="11"/>
+<connect gate="A" pin="P7" pad="12"/>
+<connect gate="A" pin="SCL" pad="14"/>
+<connect gate="A" pin="SDA" pad="15"/>
+<connect gate="A" pin="V+" pad="16"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:42307182/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -10863,6 +10966,9 @@ Low profile connectors, straight&lt;p&gt;
 <part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10uF"/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="CON2" library="con-ml" library_urn="urn:adsk.eagle:library:42302992" deviceset="ML14L" device="" package3d_urn="urn:adsk.eagle:package:42303061/2"/>
+<part name="U1" library="MAX7315AUET" library_urn="urn:adsk.eagle:library:42304147" deviceset="MAX7315AUET" device="" package3d_urn="urn:adsk.eagle:package:42307182/1"/>
+<part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="+3V7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -11155,6 +11261,16 @@ Low profile connectors, straight&lt;p&gt;
 <attribute name="VALUE" x="196.85" y="185.42" size="1.778" layer="96"/>
 <attribute name="NAME" x="196.85" y="209.042" size="1.778" layer="95"/>
 </instance>
+<instance part="U1" gate="A" x="330.2" y="66.04" smashed="yes">
+<attribute name="NAME" x="317.5" y="87.36" size="2.0828" layer="95" ratio="10" rot="SR0"/>
+<attribute name="VALUE" x="317.5" y="41.72" size="2.0828" layer="96" ratio="10" rot="SR0"/>
+</instance>
+<instance part="GND7" gate="1" x="330.2" y="35.56" smashed="yes">
+<attribute name="VALUE" x="327.66" y="33.02" size="1.778" layer="96"/>
+</instance>
+<instance part="+3V7" gate="G$1" x="350.52" y="88.9" smashed="yes">
+<attribute name="VALUE" x="355.6" y="91.44" size="1.778" layer="96" rot="R180"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -11393,6 +11509,28 @@ Low profile connectors, straight&lt;p&gt;
 <wire x1="104.14" y1="20.32" x2="104.14" y2="12.7" width="0.1524" layer="91"/>
 <pinref part="GND4" gate="1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="GND7" gate="1" pin="GND"/>
+<wire x1="330.2" y1="38.1" x2="330.2" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="U1" gate="A" pin="AD2"/>
+<wire x1="312.42" y1="73.66" x2="309.88" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="309.88" y1="73.66" x2="309.88" y2="76.2" width="0.1524" layer="91"/>
+<pinref part="U1" gate="A" pin="AD1"/>
+<wire x1="309.88" y1="76.2" x2="312.42" y2="76.2" width="0.1524" layer="91"/>
+<pinref part="U1" gate="A" pin="AD0"/>
+<wire x1="312.42" y1="78.74" x2="309.88" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="309.88" y1="78.74" x2="309.88" y2="76.2" width="0.1524" layer="91"/>
+<junction x="309.88" y="76.2"/>
+<wire x1="309.88" y1="73.66" x2="297.18" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="297.18" y1="73.66" x2="297.18" y2="40.64" width="0.1524" layer="91"/>
+<junction x="309.88" y="73.66"/>
+<wire x1="330.2" y1="40.64" x2="297.18" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="330.2" y1="40.64" x2="350.52" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="350.52" y1="40.64" x2="350.52" y2="50.8" width="0.1524" layer="91"/>
+<pinref part="U1" gate="A" pin="GND"/>
+<wire x1="350.52" y1="50.8" x2="347.98" y2="50.8" width="0.1524" layer="91"/>
+<junction x="330.2" y="40.64"/>
+</segment>
 </net>
 <net name="SDA" class="0">
 <segment>
@@ -11421,6 +11559,11 @@ Low profile connectors, straight&lt;p&gt;
 <label x="314.96" y="231.14" size="1.778" layer="95" xref="yes"/>
 <pinref part="ADC" gate="G$1" pin="SCL"/>
 </segment>
+<segment>
+<pinref part="U1" gate="A" pin="SDA"/>
+<wire x1="312.42" y1="53.34" x2="309.88" y2="53.34" width="0.1524" layer="91"/>
+<label x="309.88" y="53.34" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="SCL" class="0">
 <segment>
@@ -11448,6 +11591,11 @@ Low profile connectors, straight&lt;p&gt;
 <wire x1="312.42" y1="236.22" x2="314.96" y2="236.22" width="0.1524" layer="91"/>
 <label x="314.96" y="236.22" size="1.778" layer="95" xref="yes"/>
 <pinref part="ADC" gate="G$1" pin="SDA"/>
+</segment>
+<segment>
+<pinref part="U1" gate="A" pin="SCL"/>
+<wire x1="312.42" y1="71.12" x2="309.88" y2="71.12" width="0.1524" layer="91"/>
+<label x="309.88" y="71.12" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -11496,6 +11644,12 @@ Low profile connectors, straight&lt;p&gt;
 <pinref part="+3V6" gate="G$1" pin="+3V3"/>
 <wire x1="144.78" y1="162.56" x2="144.78" y2="160.02" width="0.1524" layer="91"/>
 <junction x="144.78" y="160.02"/>
+</segment>
+<segment>
+<pinref part="U1" gate="A" pin="V+"/>
+<wire x1="347.98" y1="83.82" x2="350.52" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="350.52" y1="83.82" x2="350.52" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="+3V7" gate="G$1" pin="+3V3"/>
 </segment>
 </net>
 <net name="+5V" class="0">
@@ -11557,14 +11711,14 @@ Low profile connectors, straight&lt;p&gt;
 </net>
 <net name="MD3_F" class="0">
 <segment>
-<wire x1="27.94" y1="142.24" x2="20.32" y2="142.24" width="0.1524" layer="91"/>
-<label x="20.32" y="142.24" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="RASPPI" gate="G$1" pin="GPIO17"/>
-</segment>
-<segment>
 <pinref part="MD3" gate="G$1" pin="FIN"/>
 <wire x1="165.1" y1="53.34" x2="152.4" y2="53.34" width="0.1524" layer="91"/>
 <label x="152.4" y="53.34" size="1.4224" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U1" gate="A" pin="P4"/>
+<wire x1="347.98" y1="66.04" x2="350.52" y2="66.04" width="0.1524" layer="91"/>
+<label x="350.52" y="66.04" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="MD1_F" class="0">
@@ -11574,9 +11728,9 @@ Low profile connectors, straight&lt;p&gt;
 <label x="38.1" y="53.34" size="1.4224" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="27.94" y1="119.38" x2="22.86" y2="119.38" width="0.1524" layer="91"/>
-<label x="22.86" y="119.38" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="RASPPI" gate="G$1" pin="GPIO5"/>
+<pinref part="U1" gate="A" pin="P0"/>
+<wire x1="312.42" y1="66.04" x2="309.88" y2="66.04" width="0.1524" layer="91"/>
+<label x="309.88" y="66.04" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="MD1_R" class="0">
@@ -11586,9 +11740,9 @@ Low profile connectors, straight&lt;p&gt;
 <label x="35.56" y="48.26" size="1.4224" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="27.94" y1="116.84" x2="22.86" y2="116.84" width="0.1524" layer="91"/>
-<label x="22.86" y="116.84" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="RASPPI" gate="G$1" pin="GPIO6"/>
+<pinref part="U1" gate="A" pin="P1"/>
+<wire x1="312.42" y1="63.5" x2="309.88" y2="63.5" width="0.1524" layer="91"/>
+<label x="309.88" y="63.5" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -11814,15 +11968,15 @@ Low profile connectors, straight&lt;p&gt;
 </net>
 <net name="SV2" class="0">
 <segment>
-<pinref part="RASPPI" gate="G$1" pin="GPIO19"/>
-<wire x1="27.94" y1="111.76" x2="22.86" y2="111.76" width="0.1524" layer="91"/>
-<label x="22.86" y="111.76" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
 <wire x1="208.28" y1="195.58" x2="210.82" y2="195.58" width="0.1524" layer="91"/>
 <label x="210.82" y="195.58" size="1.778" layer="95" xref="yes"/>
 <pinref part="CON2" gate="G$1" pin="5"/>
 <wire x1="208.28" y1="195.58" x2="210.82" y2="195.58" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="RASPPI" gate="G$1" pin="GPIO18"/>
+<wire x1="63.5" y1="142.24" x2="68.58" y2="142.24" width="0.1524" layer="91"/>
+<label x="68.58" y="142.24" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="GPS_TRIG" class="0">
@@ -12012,9 +12166,9 @@ Low profile connectors, straight&lt;p&gt;
 <label x="58.42" y="53.34" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="63.5" y1="129.54" x2="68.58" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="RASPPI" gate="G$1" pin="GPIO25"/>
-<label x="68.58" y="129.54" size="1.778" layer="95" xref="yes"/>
+<pinref part="U1" gate="A" pin="P2"/>
+<wire x1="312.42" y1="60.96" x2="309.88" y2="60.96" width="0.1524" layer="91"/>
+<label x="309.88" y="60.96" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="MD2_R" class="0">
@@ -12024,21 +12178,21 @@ Low profile connectors, straight&lt;p&gt;
 <label x="60.96" y="48.26" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="63.5" y1="111.76" x2="68.58" y2="111.76" width="0.1524" layer="91"/>
-<pinref part="RASPPI" gate="G$1" pin="GPIO16"/>
-<label x="68.58" y="111.76" size="1.778" layer="95" xref="yes"/>
+<pinref part="U1" gate="A" pin="P3"/>
+<wire x1="312.42" y1="58.42" x2="309.88" y2="58.42" width="0.1524" layer="91"/>
+<label x="309.88" y="58.42" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="MD3_R" class="0">
 <segment>
-<wire x1="27.94" y1="139.7" x2="20.32" y2="139.7" width="0.1524" layer="91"/>
-<label x="20.32" y="139.7" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="RASPPI" gate="G$1" pin="GPIO27"/>
-</segment>
-<segment>
 <pinref part="MD3" gate="G$1" pin="RIN"/>
 <wire x1="165.1" y1="48.26" x2="152.4" y2="48.26" width="0.1524" layer="91"/>
 <label x="152.4" y="48.26" size="1.4224" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U1" gate="A" pin="P5"/>
+<wire x1="347.98" y1="63.5" x2="350.52" y2="63.5" width="0.1524" layer="91"/>
+<label x="350.52" y="63.5" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="MD4_F" class="0">
@@ -12048,9 +12202,9 @@ Low profile connectors, straight&lt;p&gt;
 <label x="127" y="53.34" size="1.4224" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="63.5" y1="137.16" x2="68.58" y2="137.16" width="0.1524" layer="91"/>
-<pinref part="RASPPI" gate="G$1" pin="GPIO23"/>
-<label x="68.58" y="137.16" size="1.778" layer="95" xref="yes"/>
+<pinref part="U1" gate="A" pin="P6"/>
+<wire x1="347.98" y1="60.96" x2="350.52" y2="60.96" width="0.1524" layer="91"/>
+<label x="350.52" y="60.96" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="MD4_R" class="0">
@@ -12060,9 +12214,9 @@ Low profile connectors, straight&lt;p&gt;
 <label x="127" y="48.26" size="1.4224" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="63.5" y1="134.62" x2="68.58" y2="134.62" width="0.1524" layer="91"/>
-<pinref part="RASPPI" gate="G$1" pin="GPIO24"/>
-<label x="68.58" y="134.62" size="1.778" layer="95" xref="yes"/>
+<pinref part="U1" gate="A" pin="P7"/>
+<wire x1="347.98" y1="58.42" x2="350.52" y2="58.42" width="0.1524" layer="91"/>
+<label x="350.52" y="58.42" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="MD4_O1" class="0">
@@ -12111,6 +12265,18 @@ Low profile connectors, straight&lt;p&gt;
 <pinref part="MD1" gate="G$1" pin="OUT2"/>
 <wire x1="22.86" y1="45.72" x2="27.94" y2="45.72" width="0.1524" layer="91"/>
 <label x="27.94" y="45.72" size="1.4224" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="INT" class="0">
+<segment>
+<pinref part="U1" gate="A" pin="!INT/08"/>
+<wire x1="347.98" y1="78.74" x2="350.52" y2="78.74" width="0.1524" layer="91"/>
+<label x="350.52" y="78.74" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="RASPPI" gate="G$1" pin="GPIO19"/>
+<wire x1="27.94" y1="111.76" x2="22.86" y2="111.76" width="0.1524" layer="91"/>
+<label x="22.86" y="111.76" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
