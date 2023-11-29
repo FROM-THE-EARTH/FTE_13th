@@ -11152,7 +11152,6 @@ Low profile connectors, straight&lt;p&gt;
 <part name="BMP1" library="BMP180" library_urn="urn:adsk.eagle:library:38464354" deviceset="BMP180" device="" package3d_urn="urn:adsk.eagle:package:38464357/3"/>
 <part name="BMX1" library="BMX055" library_urn="urn:adsk.eagle:library:38466640" deviceset="BMX055" device="" package3d_urn="urn:adsk.eagle:package:38466643/2"/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1.2k"/>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1k"/>
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1k"/>
 <part name="MD2" library="BD6222HFP-TR" library_urn="urn:adsk.eagle:library:38464344" deviceset="BD6222HFP-TR" device="" package3d_urn="urn:adsk.eagle:package:38464347/2"/>
@@ -11166,17 +11165,14 @@ Low profile connectors, straight&lt;p&gt;
 <part name="P+6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device="" value="+7.4V"/>
 <part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10uF"/>
 <part name="GND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="20k"/>
+<part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1.2k"/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="P+7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
-<part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10μF-10V"/>
+<part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10μF"/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="470μF-16V"/>
-<part name="GND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device=""/>
 <part name="GND18" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="MOS1" library="Chip MOSFET" library_urn="urn:adsk.eagle:library:38473693" deviceset="PCH_SSM6J808R" device="" package3d_urn="urn:adsk.eagle:package:38473699/2"/>
@@ -11195,7 +11191,7 @@ Low profile connectors, straight&lt;p&gt;
 <part name="P+9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device="" value="+7.4V"/>
 <part name="PW" library="XR Connector" library_urn="urn:adsk.eagle:library:38467597" deviceset="2PIN" device="" package3d_urn="urn:adsk.eagle:package:38467599/3"/>
 <part name="GND24" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="22μF-25v"/>
+<part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="22μF"/>
 <part name="GND21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="L1" library="Chip LED" library_urn="urn:adsk.eagle:library:38473657" deviceset="OSXX1608C1A" device="" package3d_urn="urn:adsk.eagle:package:38473660/2"/>
 <part name="L3" library="Chip LED" library_urn="urn:adsk.eagle:library:38473657" deviceset="OSXX1608C1A" device="" package3d_urn="urn:adsk.eagle:package:38473660/2"/>
@@ -11205,8 +11201,8 @@ Low profile connectors, straight&lt;p&gt;
 <part name="MD4" library="BD6222HFP-TR" library_urn="urn:adsk.eagle:library:38464344" deviceset="BD6222HFP-TR" device="" package3d_urn="urn:adsk.eagle:package:38464347/2"/>
 <part name="P+12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device="" value="+7.4V"/>
 <part name="GND27" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3"/>
-<part name="R19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3"/>
+<part name="R18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="BAT"/>
+<part name="R19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="COM"/>
 <part name="GND36" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="ADC" library="bt" library_urn="urn:adsk.eagle:library:42295588" deviceset="MCP3425" device="" package3d_urn="urn:adsk.eagle:package:42295781/2"/>
 <part name="GND25" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -11231,6 +11227,8 @@ Low profile connectors, straight&lt;p&gt;
 <part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-2X4" device="" package3d_urn="urn:adsk.eagle:package:22461/2"/>
 <part name="P+10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1.2k"/>
+<part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1.2k"/>
 </parts>
 <sheets>
 <sheet>
@@ -11270,10 +11268,6 @@ Low profile connectors, straight&lt;p&gt;
 </instance>
 <instance part="GND3" gate="1" x="269.24" y="58.42" smashed="yes">
 <attribute name="VALUE" x="266.7" y="55.88" size="1.778" layer="96"/>
-</instance>
-<instance part="R1" gate="G$1" x="269.24" y="86.36" smashed="yes" rot="R90">
-<attribute name="NAME" x="267.7414" y="82.55" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="272.542" y="82.55" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R2" gate="G$1" x="144.78" y="114.3" smashed="yes" rot="R270">
 <attribute name="NAME" x="146.2786" y="118.11" size="1.778" layer="95" rot="R270"/>
@@ -11323,13 +11317,7 @@ Low profile connectors, straight&lt;p&gt;
 <attribute name="NAME" x="191.5414" y="146.05" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="196.342" y="146.05" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND2" gate="1" x="236.22" y="106.68" smashed="yes">
-<attribute name="VALUE" x="233.68" y="104.14" size="1.778" layer="96"/>
-</instance>
-<instance part="R9" gate="G$1" x="198.12" y="86.36" smashed="yes" rot="R90">
-<attribute name="NAME" x="196.6214" y="82.55" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="201.422" y="82.55" size="1.778" layer="96" rot="R90"/>
-</instance>
+<instance part="GND2" gate="1" x="236.22" y="106.68" smashed="yes"/>
 <instance part="GND1" gate="1" x="198.12" y="60.96" smashed="yes">
 <attribute name="VALUE" x="195.58" y="58.42" size="1.778" layer="96"/>
 </instance>
@@ -11348,13 +11336,6 @@ Low profile connectors, straight&lt;p&gt;
 </instance>
 <instance part="GND15" gate="1" x="213.36" y="60.96" smashed="yes">
 <attribute name="VALUE" x="210.82" y="58.42" size="1.778" layer="96"/>
-</instance>
-<instance part="C5" gate="G$1" x="220.98" y="88.9" smashed="yes">
-<attribute name="NAME" x="222.504" y="89.281" size="1.778" layer="95"/>
-<attribute name="VALUE" x="222.504" y="84.201" size="1.778" layer="96"/>
-</instance>
-<instance part="GND16" gate="1" x="220.98" y="60.96" smashed="yes">
-<attribute name="VALUE" x="218.44" y="58.42" size="1.778" layer="96"/>
 </instance>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes">
 <attribute name="DRAWING_NAME" x="344.17" y="15.24" size="2.54" layer="94"/>
@@ -11543,6 +11524,14 @@ Low profile connectors, straight&lt;p&gt;
 <instance part="GND8" gate="1" x="254" y="208.28" smashed="yes">
 <attribute name="VALUE" x="251.46" y="205.74" size="1.778" layer="96"/>
 </instance>
+<instance part="R4" gate="G$1" x="198.12" y="86.36" smashed="yes" rot="R90">
+<attribute name="NAME" x="196.6214" y="82.55" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="201.422" y="82.55" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R5" gate="G$1" x="269.24" y="86.36" smashed="yes" rot="R90">
+<attribute name="NAME" x="267.7414" y="82.55" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="272.542" y="82.55" size="1.778" layer="96" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -11556,14 +11545,14 @@ Low profile connectors, straight&lt;p&gt;
 <segment>
 <wire x1="269.24" y1="91.44" x2="269.24" y2="93.98" width="0.1524" layer="91"/>
 <label x="269.24" y="93.98" size="1.778" layer="95" rot="R90" xref="yes"/>
-<pinref part="R1" gate="G$1" pin="2"/>
+<pinref part="R5" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="GND" class="0">
 <segment>
 <wire x1="269.24" y1="81.28" x2="269.24" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="GND3" gate="1" pin="GND"/>
-<pinref part="R1" gate="G$1" pin="1"/>
+<pinref part="R5" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="MD2" gate="G$1" pin="GND"/>
@@ -11622,9 +11611,9 @@ Low profile connectors, straight&lt;p&gt;
 <pinref part="U$1" gate="G$1" pin="1_ON/OFF"/>
 </segment>
 <segment>
-<pinref part="R9" gate="G$1" pin="1"/>
 <wire x1="198.12" y1="81.28" x2="198.12" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="GND1" gate="1" pin="GND"/>
+<pinref part="R4" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="C3" gate="G$1" pin="2"/>
@@ -11635,11 +11624,6 @@ Low profile connectors, straight&lt;p&gt;
 <pinref part="GND15" gate="1" pin="GND"/>
 <wire x1="213.36" y1="83.82" x2="213.36" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="C4" gate="G$1" pin="2"/>
-</segment>
-<segment>
-<pinref part="C5" gate="G$1" pin="2"/>
-<wire x1="220.98" y1="83.82" x2="220.98" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="GND16" gate="1" pin="GND"/>
 </segment>
 <segment>
 <wire x1="58.42" y1="210.82" x2="58.42" y2="205.74" width="0.1524" layer="91"/>
@@ -11953,8 +11937,8 @@ Low profile connectors, straight&lt;p&gt;
 </segment>
 <segment>
 <wire x1="198.12" y1="99.06" x2="198.12" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="R9" gate="G$1" pin="2"/>
 <pinref part="P+5" gate="VCC" pin="VCC"/>
+<pinref part="R4" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="P+7" gate="VCC" pin="VCC"/>
@@ -12120,11 +12104,6 @@ Low profile connectors, straight&lt;p&gt;
 <wire x1="213.36" y1="99.06" x2="213.36" y2="91.44" width="0.1524" layer="91"/>
 <label x="213.36" y="99.06" size="1.778" layer="95" rot="R90" xref="yes"/>
 <pinref part="C4" gate="G$1" pin="1"/>
-</segment>
-<segment>
-<wire x1="220.98" y1="99.06" x2="220.98" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="C5" gate="G$1" pin="1"/>
-<label x="220.98" y="99.06" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="LED0" class="0">

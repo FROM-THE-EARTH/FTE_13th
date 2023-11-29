@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2023-11-29T07:40:49Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.6.2"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.57,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "ig-normal-ver13_PWM_UARTexpantion"
+        },
+        "Owner": "  <kawashima.ryotaro.s8@dc.tohoku.ac.jp>",
+        "Size": {
+            "X": 33,
+            "Y": 67.026453
+        }
+    }
+}
