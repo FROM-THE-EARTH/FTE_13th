@@ -1,0 +1,13 @@
+../Core/Src/bmx055.c:17:5:checkBMX055	7
+../Core/Src/bmx055.c:91:6:trimBMX055	1
+../Core/Src/bmx055.c:113:6:selfTestBMX055	1
+../Core/Src/bmx055.c:162:6:initBMX055	1
+../Core/Src/bmx055.c:208:7:getBMX055resGyro	6
+../Core/Src/bmx055.c:227:7:getBMX055resAccel	5
+../Core/Src/bmx055.c:245:7:getBMX055resMag	1
+../Core/Src/bmx055.c:250:5:readBMX055DataAccel	4
+../Core/Src/bmx055.c:266:5:readBMX055DataGyro	1
+../Core/Src/bmx055.c:279:5:readBMX055DataMag	2
+../Core/Src/bmx055.c:327:9:compensate_BMX055_X	5
+../Core/Src/bmx055.c:366:9:compensate_BMX055_Y	5
+../Core/Src/bmx055.c:405:9:compensate_BMX055_Z	8

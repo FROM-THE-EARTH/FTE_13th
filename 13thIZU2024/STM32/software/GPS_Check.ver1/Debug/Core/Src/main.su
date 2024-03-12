@@ -1,0 +1,12 @@
+../Drivers/CMSIS/Include/core_cm4.h:2064:26:ITM_SendChar	16	static,ignoring_inline_asm
+../Core/Src/main.c:91:6:HAL_UART_RxCpltCallback	16	static
+../Core/Src/main.c:100:5:main	16	static
+../Core/Src/main.c:174:6:SystemClock_Config	96	static
+../Core/Src/main.c:221:13:MX_I2C1_Init	8	static
+../Core/Src/main.c:269:13:MX_USART1_UART_Init	8	static
+../Core/Src/main.c:304:13:MX_USART2_UART_Init	8	static
+../Core/Src/main.c:339:13:MX_GPIO_Init	16	static
+../Core/Src/main.c:353:5:_write	32	static
+../Core/Src/main.c:361:7:extractFloat	16	static
+../Core/Src/main.c:365:5:processGPSdata	48	static
+../Core/Src/main.c:430:6:Error_Handler	4	static,ignoring_inline_asm

@@ -1,0 +1,7 @@
+../Core/Src/bmx.c:10:9:bmxRead8	1
+../Core/Src/bmx.c:17:10:bmxRead16	1
+../Core/Src/bmx.c:24:6:bmxWrite8	1
+../Core/Src/bmx.c:30:9:bmxBegin	1
+../Core/Src/bmx.c:66:6:read_bmx_accl	8
+../Core/Src/bmx.c:89:6:read_bmx_gyro	5
+../Core/Src/bmx.c:112:6:read_bmx_mag	5
