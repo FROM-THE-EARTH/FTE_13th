@@ -62,6 +62,7 @@ static void MX_I2C1_Init(void);
 /* USER CODE BEGIN PFP */
 float extractFloat(const char *str);
 void getLatitudeLongitude(uint8_t *data, float *latitude, float *longitude);
+void wirelessSend(int fpState, double latitude, double longitude, float acX, float acY, float acZ, int16_t gyX, int16_t gyY, int16_t gyZ, int16_t mgX, int16_t mgY, int16_t mgZ);
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
@@ -193,6 +194,9 @@ int main(void)
 	  		printf("%.8lf, %.8lf\n",latitude ,longtitude);
 
   }
+
+	wirelessSend(fpState, latitude, longitude, acc[0], acc[1], acc[2], gyroData[0], gyroData[1], gyroData[2], magData[0], magData[1], magData[2]);
+	
   /* USER CODE END 3 */
 }
 
@@ -450,6 +454,43 @@ int processGPSdata(char *rawData) {
 
 	return 0;
 }
+
+//IM920sl用
+void wirelessSend(int fpState, double latitude, double longitude, float acX, float acY, float acZ, int16_t gyX, int16_t gyY, int16_t gyZ, int16_t mgX, int16_t mgY, int16_t mgZ) {
+	char transmitBuffer[40];
+
+
+    //snprintf関数で、IM用のコマンド・全ての値を結合しtransmitBufferに保存
+    snprintf(transmitBuffer, sizeof(transmitBuffer), "TXDA F%d,la%.8lf,lo%.8lf,a%.2f,%.2f,%.2f,g%d,%d,%d,m%d,%d,%d\r\n", fpState, latitude, longitude, acX, acY, acZ, gyX, gyY, gyZ, mgX, mgY, mgZ);
+
+    /***※補足１************************************************
+    以下の２種類(1)(2)も用意しました～　実際使いやすいやつを！
+
+    (1) センサ値以外なし　ver
+    snprintf(transmitBuffer, sizeof(transmitBuffer), "TXDA %d,%.8lf,%.8lf,%.2f,%.2f,%.2f,%d,%d,%d,%d,%d,%d\r\n", fpState, latitude, longitude, acX, acY, acZ, gyX, gyY, gyZ, mgX, mgY, mgZ); 
+    
+    (2)  ご丁寧　ver   ※char transmitBuffer[40];　=> 40じゃ足りないかも
+    snprintf(transmitBuffer, sizeof(transmitBuffer), "TXDA FP %d,la %.8lf,lo %.8lf,accX %.2f,accY %.2f,accZ %.2f,gyrX %d,gyrY %d,gyrZ %d,mgnX %d,mgnY %d,mgnZ %d\r\n", fpState, latitude, longitude, acX, acY, acZ, gyX, gyY, gyZ, mgX, mgY, mgZ);
+	
+    *******************************************************/
+
+    /***※補足２************************************************
+    このsnprintf関数、いろいろな書式の変数を扱うため、フォーマット系のエラーが怖い　byおぐら
+
+    STM32マイコン・対応するコンパイラ,デバッカにおいて変数をどう扱うのか詳細を知らないのですが、
+    もし、このsnprintf文で構文エラーが出た場合でフォーマット指定がうまくいってなさそうな場合、、
+
+    intX_tやuintX_tなどの変数について<inttypes.h>というヘッダファイルの中でいろいろ定義があるそうです
+    https://docs.oracle.com/cd/E19957-01/805-7885/z40000221c7c/index.html
+    ここの情報が使えるかもしれないのですが、使えるかもしれないのでここに書いときます
+    *******************************************************/
+
+
+    HAL_UART_Transmit(&huart1, (uint8_t*) transmitBuffer,strlen(transmitBuffer), 3000);
+
+    
+}
+
 /* USER CODE END 4 */
 
 /**
