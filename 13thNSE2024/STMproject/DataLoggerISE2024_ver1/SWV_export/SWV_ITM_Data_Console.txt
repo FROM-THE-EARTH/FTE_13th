@@ -1,0 +1,2 @@
+SWV ITM Data Console - ITM Port: 0
+SD CARD mounted successfully.successfully initialized BMP180

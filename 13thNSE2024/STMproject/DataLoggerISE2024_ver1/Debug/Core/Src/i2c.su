@@ -1,0 +1,6 @@
+../Core/Src/i2c.c:6:5:i2c_writeSingleByte	24	static
+../Core/Src/i2c.c:13:5:i2c_writeRegisterByte	32	static
+../Core/Src/i2c.c:20:5:i2c_readRegister	16	static
+../Core/Src/i2c.c:25:5:i2c_readData	32	static
+../Core/Src/i2c.c:32:5:i2c_isDeviceReady	16	static
+../Core/Src/i2c.c:40:9:i2c_reset	16	static

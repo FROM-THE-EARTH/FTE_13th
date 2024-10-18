@@ -1,0 +1,10 @@
+../Core/Src/bmp180.c:46:9:bmpRead8	1
+../Core/Src/bmp180.c:52:10:bmpRead16	1
+../Core/Src/bmp180.c:60:6:bmpWrite8	1
+../Core/Src/bmp180.c:66:9:bmpBegin	3
+../Core/Src/bmp180.c:88:9:computeB5	1
+../Core/Src/bmp180.c:93:10:readBMPRawTemperature	1
+../Core/Src/bmp180.c:98:10:readBMPRawPressure	4
+../Core/Src/bmp180.c:115:7:readBMPTemperature	1
+../Core/Src/bmp180.c:124:9:readBMPPressure	3
+../Core/Src/bmp180.c:153:8:calculateAltitude	1

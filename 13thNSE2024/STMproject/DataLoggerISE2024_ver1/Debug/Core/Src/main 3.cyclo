@@ -1,0 +1,11 @@
+../Drivers/CMSIS/Include/core_cm4.h:2064:26:ITM_SendChar	4
+../Core/Src/main.c:106:5:main	6
+../Core/Src/main.c:237:6:SystemClock_Config	4
+../Core/Src/main.c:284:13:MX_ADC1_Init	4
+../Core/Src/main.c:350:13:MX_I2C1_Init	4
+../Core/Src/main.c:398:13:MX_SPI1_Init	2
+../Core/Src/main.c:438:13:MX_TIM3_Init	4
+../Core/Src/main.c:483:13:MX_GPIO_Init	1
+../Core/Src/main.c:514:5:_write	2
+../Core/Src/main.c:522:8:getRawAltitude	1
+../Core/Src/main.c:540:6:Error_Handler	1
